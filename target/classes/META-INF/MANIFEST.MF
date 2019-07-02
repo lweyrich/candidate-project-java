@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: candidate-challenge
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lweyri
+Implementation-Vendor-Id: com.zoomcare
+Build-Jdk: 1.8.0_202
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/java-candidate-challenge
+Created-By: Maven Integration for Eclipse
+

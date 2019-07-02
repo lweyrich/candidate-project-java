@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.zoomcare.candidatechallenge.test.EmployeeControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.775 s <<< FAILURE! - in com.zoomcare.candidatechallenge.test.EmployeeControllerTest
+restCallFindEmployeeById(com.zoomcare.candidatechallenge.test.EmployeeControllerTest)  Time elapsed: 0.952 s  <<< ERROR!
+org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class com.zoomcare.candidatechallenge.entity.Employee] and content type [application/json;charset=UTF-8]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'error': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'error': was expecting ('true', 'false' or 'null')
+ at [Source: (PushbackInputStream); line: 1, column: 11]
+	at com.zoomcare.candidatechallenge.test.EmployeeControllerTest.restCallFindEmployeeById(EmployeeControllerTest.java:46)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'error': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'error': was expecting ('true', 'false' or 'null')
+ at [Source: (PushbackInputStream); line: 1, column: 11]
+	at com.zoomcare.candidatechallenge.test.EmployeeControllerTest.restCallFindEmployeeById(EmployeeControllerTest.java:46)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'error': was expecting ('true', 'false' or 'null')
+ at [Source: (PushbackInputStream); line: 1, column: 11]
+	at com.zoomcare.candidatechallenge.test.EmployeeControllerTest.restCallFindEmployeeById(EmployeeControllerTest.java:46)
+
